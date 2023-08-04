@@ -1222,4 +1222,4 @@ function startflood(){
         process.exit(1);
     }
 
-  }https://m.baidu.com/mip/c/s/zhangzifan.com/wechat-user-agent.htmlOS
+}
