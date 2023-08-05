@@ -7,7 +7,7 @@ const request = require('request')
 async function poptto() {
     if (process.argv.length !== 6) {
         console.log(`node botddos.js url times threads proxy/off/proxy.txt`);
-        console.log(`vi du : node POWERFUL.js https://dangtri.com 120 1000 dmtproxy.txt`);
+        console.log(`vi du : node botddos.js https://dangtri.com 120 1000 dmtproxy.txt`);
         process.exit(0);
     }else{
         const target = process.argv[2];
