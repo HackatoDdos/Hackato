@@ -328,7 +328,7 @@ def white(script, target_file="targets.txt"):
 
 
 
-                req = s.put(site + "/index.html", data=op)
+                req = s.put(site + "index.html", data=op)
 
 
 
