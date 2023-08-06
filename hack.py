@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from colorama import Fore, Back, Style
 import socket
 import os
