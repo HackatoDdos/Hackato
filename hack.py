@@ -24,20 +24,20 @@ def ascii_vro():
      ▒ ░░▒░▒ ▒▒   ▓▒█░ ▒ ░░   ░ ▒░▒░▒░ ▒ ▒▒ ▓▒░▓  
      ▒ ░▒░ ░  ▒   ▒▒ ░   ░      ░ ▒ ▒░ ░ ░▒ ▒░ ▒ ░
      ░  ░░ ░  ░   ▒    ░      ░ ░ ░ ▒  ░ ░░ ░  ▒ ░
-     ░  ░  ░      ░  ░            ░ ░  ░  ░    ░   by TranDucDuy
+     ░  ░  ░      ░  ░            ░ ░  ░  ░    ░   by Nguyễn Thanh Ngọc X Nguyễn Duy Hưng 
                                            """)
     time.sleep(1.8)
     clear()
 
 def si():
-    print("Zalo/Call: 0974998164")
-    print("Information: https://tddcd.info")
+    print("Zalo/Call: 0337885300")
+    print("Information: https://zalo.me/g/hlrslh750")
 
 def menu():
     sys.stdout.write(f"NaSaKi Ddos Update 4.5.8")
     clear()
-    print('HaToKi DDoS By TranDucDuy [tddcd.info] ')
-    print("https://tddcd.info")
+    print('HaToKi DDoS By Shark [Hackato-DepZai] ')
+    print("https://zalo.me/g/hlrslh750")
     print(Fore.BLUE + """
             ╚═════════════════════╦═════════════════════════════════════════╦══════════════════════╝
                 ╔═════════════════╩══════════════[HaToKi-DDoS]══════════════╩══════════════════╗
